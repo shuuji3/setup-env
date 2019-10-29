@@ -5,3 +5,4 @@
     - dev-sec.ssh-hardening
     - telusdigital.fish
     - chsh-fish
+    - common-install-packages

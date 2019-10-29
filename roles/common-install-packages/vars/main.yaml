@@ -1,0 +1,9 @@
+---
+packages: []
+snap_packages:
+  - tree
+  - htop
+  - lxd
+  - docker
+  - multipass
+  - microk8s
