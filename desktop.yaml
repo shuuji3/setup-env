@@ -1,0 +1,6 @@
+---
+- import_playbook: common.yaml
+- hosts: all
+  become: true
+  roles:
+    - pixelart.chrome
