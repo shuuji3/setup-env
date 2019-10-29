@@ -1,0 +1,10 @@
+---
+- name: find the location of fish shell
+  command: which fish
+  register: which_fish
+  ignore_errors: yes
+- name: chsh fish
+  user:
+    name: "{{ ansible_user }}"
+    shell: '{{ which_fish.stdout }}'
+  when: which_fish is success

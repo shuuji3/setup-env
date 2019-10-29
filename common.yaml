@@ -4,3 +4,4 @@
   roles:
     - dev-sec.ssh-hardening
     - telusdigital.fish
+    - chsh-fish
