@@ -3,7 +3,7 @@
   become: true
   roles:
     - install-ssh-authorized_keys
+    - common-install-packages
     - dev-sec.ssh-hardening
     - telusdigital.fish
     - chsh-fish
-    - common-install-packages

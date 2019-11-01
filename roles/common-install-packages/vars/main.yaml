@@ -1,9 +1,16 @@
 ---
-packages: []
+packages:
+  - ssh
 snap_packages:
-  - tree
-  - htop
-  - lxd
-  - docker
-  - multipass
-  - microk8s
+  - name: tree
+  - name: htop
+  - name: lxd
+  - name: docker
+  - name: microk8s
+    classic: yes
+  - name: multipass
+    classic: yes
+    channel: beta
+  - name: emacs
+    classic: yes
+

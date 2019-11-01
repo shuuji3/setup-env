@@ -6,4 +6,7 @@
   with_items: "{{ packages }}"
 - name: install snap packages
   snap:
-    name: "{{ snap_packages }}"
+    name: "{{ item.name | default(omit) }}"
+    classic: "{{ item.classic | default(omit) }}"
+    channel: "{{ item.channel | default(omit) }}"
+  with_items: "{{ snap_packages }}"
