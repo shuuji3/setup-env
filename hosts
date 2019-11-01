@@ -1,2 +1,2 @@
 [all]
-shuuji3-ubuntu ansible_user=multipass
+localhost ansible_user=shuuji3
