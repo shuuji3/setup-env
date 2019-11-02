@@ -13,4 +13,7 @@ snap_packages:
     channel: beta
   - name: emacs
     classic: yes
-
+  - name: slack
+    classic: yes
+  - name: intellij-idea-ultimate
+    classic: yes
