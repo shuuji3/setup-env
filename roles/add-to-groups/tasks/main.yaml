@@ -1,0 +1,11 @@
+---
+- name: create docker group
+  group:
+    name: docker
+- name: add user to lxd & docker group
+  user:
+    name: "{{ ansible_user }}"
+    append: yes
+    groups:
+      - lxd
+      - docker
