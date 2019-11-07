@@ -10,3 +10,11 @@
     classic: "{{ item.classic | default(omit) }}"
     channel: "{{ item.channel | default(omit) }}"
   with_items: "{{ snap_packages }}"
+- name: add the flathub flatpak repository remote to the user installation
+  flatpak_remote:
+    name: flathub
+    flatpakrepo_url: https://dl.flathub.org/repo/flathub.flatpakrepo
+- name: install flatpak packages
+  flatpak:
+    name: "{{ item }}"
+  with_items: "{{ flatpak_packages }}"

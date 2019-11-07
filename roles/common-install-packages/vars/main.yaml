@@ -3,6 +3,7 @@ packages:
   - ssh
   - vino
   - gnome-tweaks
+  - flatpak
 snap_packages:
   - name: tree
   - name: htop
@@ -21,3 +22,5 @@ snap_packages:
     classic: yes
   - name: hub
     classic: yes
+flatpak_packages:
+  - com.github.marktext.marktext
