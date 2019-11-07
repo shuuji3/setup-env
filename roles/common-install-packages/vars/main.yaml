@@ -4,6 +4,7 @@ packages:
   - vino
   - gnome-tweaks
   - flatpak
+  - autokey-gtk
 snap_packages:
   - name: tree
   - name: htop
@@ -22,5 +23,6 @@ snap_packages:
     classic: yes
   - name: hub
     classic: yes
+  - name: teams-for-linux
 flatpak_packages:
   - com.github.marktext.marktext
