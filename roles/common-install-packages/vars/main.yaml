@@ -1,6 +1,8 @@
 ---
 packages:
   - ssh
+  - vino
+  - gnome-tweaks
 snap_packages:
   - name: tree
   - name: htop
@@ -16,4 +18,6 @@ snap_packages:
   - name: slack
     classic: yes
   - name: intellij-idea-ultimate
+    classic: yes
+  - name: hub
     classic: yes
