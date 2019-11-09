@@ -1,0 +1,16 @@
+---
+- name: install cargo and dependencies of GCSF
+  package:
+    name: "{{ item }}"
+  with_items:
+    - cargo
+    - libssl-dev
+    - libfuse-dev
+    - pkg-config
+- name: check gcsf is installed
+  stat:
+    path: /root/.cargo/bin/gcsf # TODO: Change install directory to user's one
+  register: which_gcsf
+- name: install GCSF to mount Google Drive via fuse
+  command: cargo install gcsf --force
+  when: not which_gcsf.stat.exists

@@ -5,6 +5,7 @@ packages:
   - gnome-tweaks
   - flatpak
   - autokey-gtk
+  - cargo
 snap_packages:
   - name: tree
   - name: htop
