@@ -25,5 +25,8 @@ snap_packages:
   - name: hub
     classic: yes
   - name: teams-for-linux
+  - name: node
+    channel: 13/stable
+    classic: yes
 flatpak_packages:
   - com.github.marktext.marktext
