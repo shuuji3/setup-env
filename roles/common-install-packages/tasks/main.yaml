@@ -18,3 +18,9 @@
   flatpak:
     name: "{{ item }}"
   with_items: "{{ flatpak_packages }}"
+- name: install npm global packages
+  npm:
+    name: "{{ item }}"
+    global: yes
+  with_items: "{{ npm_global_packages }}"
+  

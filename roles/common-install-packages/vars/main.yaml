@@ -30,3 +30,5 @@ snap_packages:
     classic: yes
 flatpak_packages:
   - com.github.marktext.marktext
+npm_global_packages:
+  - yarn
