@@ -6,6 +6,9 @@ packages:
   - flatpak
   - autokey-gtk
   - cargo
+  - ibus-mozc
+  - mozc-utils-gui
+  - gimp
 snap_packages:
   - name: tree
   - name: htop
@@ -28,6 +31,9 @@ snap_packages:
   - name: node
     channel: 13/stable
     classic: yes
+  - name: google-cloud-sdk
+    classic: yes
+  - name: gimp
 flatpak_packages:
   - com.github.marktext.marktext
 npm_global_packages:
