@@ -1,0 +1,6 @@
+---
+- name: install xcape
+  package:
+    name: xcape
+- name: run script to activate sands
+  script: activate-sands.bash
