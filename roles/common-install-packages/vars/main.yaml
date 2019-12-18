@@ -9,6 +9,7 @@ packages:
   - ibus-mozc
   - mozc-utils-gui
   - gimp
+  - rbenv
 snap_packages:
   - name: tree
   - name: htop
