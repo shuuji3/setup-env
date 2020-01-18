@@ -4,4 +4,4 @@
   become: true
   roles:
     - pixelart.chrome
-    - activate-sands
+    - pddg.xkeysnail
