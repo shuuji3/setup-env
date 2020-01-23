@@ -26,6 +26,10 @@ snap_packages:
     classic: yes
   - name: intellij-idea-ultimate
     classic: yes
+  - name: goland
+    classic: yes
+  - name: clion
+    classic: yes
   - name: clion
     classic: yes
   - name: hub
