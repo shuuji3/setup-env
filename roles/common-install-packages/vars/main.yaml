@@ -10,6 +10,7 @@ packages:
   - mozc-utils-gui
   - gimp
   - rbenv
+  - virtualbox-qt
 snap_packages:
   - name: tree
   - name: htop
@@ -41,6 +42,7 @@ snap_packages:
   - name: google-cloud-sdk
     classic: yes
   - name: gimp
+  - name: typora-alanzanattadev
 flatpak_packages:
   - com.github.marktext.marktext
 npm_global_packages:
