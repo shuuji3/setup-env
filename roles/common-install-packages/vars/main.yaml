@@ -43,6 +43,7 @@ snap_packages:
     classic: yes
   - name: gimp
   - name: typora-alanzanattadev
+  - name: zoom-client
 flatpak_packages: []
 npm_global_packages:
   - yarn
