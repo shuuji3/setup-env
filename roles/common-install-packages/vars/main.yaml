@@ -13,6 +13,7 @@ packages:
   - virtualbox-qt
   - jq
   - fish
+  - vagrant
 snap_packages:
   - name: tree
   - name: htop
