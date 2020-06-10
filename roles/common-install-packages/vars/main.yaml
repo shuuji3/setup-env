@@ -12,6 +12,7 @@ packages:
   - rbenv
   - virtualbox-qt
   - jq
+  - fish
 snap_packages:
   - name: tree
   - name: htop
