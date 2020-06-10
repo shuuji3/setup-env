@@ -11,6 +11,7 @@ packages:
   - gimp
   - rbenv
   - virtualbox-qt
+  - jq
 snap_packages:
   - name: tree
   - name: htop
@@ -28,8 +29,6 @@ snap_packages:
   - name: intellij-idea-ultimate
     classic: yes
   - name: goland
-    classic: yes
-  - name: clion
     classic: yes
   - name: clion
     classic: yes
