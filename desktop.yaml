@@ -1,6 +1,7 @@
 ---
 - import_playbook: common.yaml
 - hosts: all
+  connection: local
   become: true
   roles:
     - pixelart.chrome
