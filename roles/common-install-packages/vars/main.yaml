@@ -43,7 +43,6 @@ snap_packages:
     classic: yes
   - name: gimp
   - name: typora-alanzanattadev
-flatpak_packages:
-  - com.github.marktext.marktext
+flatpak_packages: []
 npm_global_packages:
   - yarn
