@@ -9,3 +9,8 @@
     - chsh-fish
     - add-to-groups
     - setup-google-drive
+
+- hosts: all
+  connection: local
+  roles:
+    - name: markosamuli.linuxbrew
