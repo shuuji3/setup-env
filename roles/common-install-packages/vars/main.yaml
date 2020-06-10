@@ -46,6 +46,7 @@ snap_packages:
   - name: zoom-client
   - name: kubectl
     classic: yes
+  - name: terraform
 flatpak_packages: []
 npm_global_packages:
   - yarn
