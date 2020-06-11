@@ -45,9 +45,11 @@ snap_packages:
   - name: gimp
   - name: typora-alanzanattadev
   - name: zoom-client
-  - name: kubectl
-    classic: yes
-  - name: terraform
+homebrew_packages:
+  - kubectl
+  - kind
+  - helm
+  - terraform
 flatpak_packages: []
 npm_global_packages:
   - yarn

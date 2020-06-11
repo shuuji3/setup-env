@@ -4,23 +4,32 @@
     name: "{{ item }}"
     state: latest
   with_items: "{{ packages }}"
+
 - name: install snap packages
   snap:
     name: "{{ item.name | default(omit) }}"
     classic: "{{ item.classic | default(omit) }}"
     channel: "{{ item.channel | default(omit) }}"
   with_items: "{{ snap_packages }}"
+
+- name: install HomeBrew packages
+  become: false
+  homebrew:
+    name: "{{ homebrew_packages }}"
+    path: /home/linuxbrew/.linuxbrew/bin
+
 - name: add the flathub flatpak repository remote to the user installation
   flatpak_remote:
     name: flathub
     flatpakrepo_url: https://dl.flathub.org/repo/flathub.flatpakrepo
+
 - name: install flatpak packages
   flatpak:
     name: "{{ item }}"
   with_items: "{{ flatpak_packages }}"
+
 - name: install npm global packages
   npm:
     name: "{{ item }}"
     global: yes
   with_items: "{{ npm_global_packages }}"
-  
