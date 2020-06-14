@@ -1,6 +1,11 @@
 ---
 - hosts: all
   connection: local
+  roles:
+    - name: markosamuli.linuxbrew
+
+- hosts: all
+  connection: local
   become: true
   roles:
     - install-ssh-authorized_keys
@@ -9,8 +14,3 @@
     - chsh-fish
     - add-to-groups
     - setup-google-drive
-
-- hosts: all
-  connection: local
-  roles:
-    - name: markosamuli.linuxbrew
