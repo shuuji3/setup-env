@@ -14,6 +14,7 @@ packages:
   - jq
   - fish
   - vagrant
+  - rclone-browser
 snap_packages:
   - name: tree
   - name: htop
