@@ -39,6 +39,7 @@ snap_packages:
   - name: gimp
   - name: typora-alanzanattadev
   - name: zoom-client
+  - name: obs-studio
 homebrew_packages:
   - kubectl
   - kind
