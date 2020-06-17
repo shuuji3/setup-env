@@ -19,7 +19,6 @@ snap_packages:
   - name: tree
   - name: htop
   - name: lxd
-  - name: docker
   - name: microk8s
     classic: yes
   - name: multipass
