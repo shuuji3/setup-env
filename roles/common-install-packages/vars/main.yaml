@@ -26,8 +26,6 @@ snap_packages:
     channel: beta
   - name: emacs
     classic: yes
-  - name: slack
-    classic: yes
   - name: hub
     classic: yes
   - name: teams-for-linux
@@ -37,7 +35,6 @@ snap_packages:
   - name: google-cloud-sdk
     classic: yes
   - name: gimp
-  - name: typora-alanzanattadev
   - name: zoom-client
   - name: obs-studio
 homebrew_packages:
