@@ -17,6 +17,7 @@ packages:
   - rclone-browser
   - ffmpeg
   - v4l2loopback-dkms
+  - imagemagick
 snap_packages:
   - name: tree
   - name: htop
