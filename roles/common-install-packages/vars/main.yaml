@@ -18,6 +18,8 @@ packages:
   - ffmpeg
   - v4l2loopback-dkms
   - imagemagick
+  - encfs
+  - iostat
 snap_packages:
   - name: tree
   - name: htop
