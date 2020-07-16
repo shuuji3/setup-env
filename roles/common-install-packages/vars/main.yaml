@@ -20,6 +20,7 @@ packages:
   - imagemagick
   - encfs
   - iostat
+  - picard
 snap_packages:
   - name: tree
   - name: htop
