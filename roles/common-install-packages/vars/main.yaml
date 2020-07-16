@@ -21,6 +21,9 @@ packages:
   - encfs
   - iostat
   - picard
+  - abcde
+  - eyed3 # required by abcde
+  - lame # required by abcde
 snap_packages:
   - name: tree
   - name: htop
