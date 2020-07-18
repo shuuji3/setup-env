@@ -24,6 +24,7 @@ packages:
   - abcde
   - eyed3 # required by abcde
   - lame # required by abcde
+  - mpv
 snap_packages:
   - name: tree
   - name: htop
@@ -47,6 +48,7 @@ snap_packages:
   - name: zoom-client
   - name: obs-studio
   - name: youtube-dl
+  - name: vlc
 homebrew_packages:
   - kubectl
   - kind
