@@ -49,6 +49,8 @@ snap_packages:
   - name: obs-studio
   - name: youtube-dl
   - name: vlc
+  - name: discord
+  - name: audacity
 homebrew_packages:
   - kubectl
   - kind
