@@ -64,6 +64,7 @@ homebrew_packages:
   - awscli
   - cfssl
   - skaffold
+  - buildpacks/tap/pack
 flatpak_packages: []
 npm_global_packages:
   - yarn
