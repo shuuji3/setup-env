@@ -26,6 +26,7 @@ packages:
   - lame # required by abcde
   - mpv
   - fzf
+  - byobu
 snap_packages:
   - name: tree
   - name: htop
