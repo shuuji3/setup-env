@@ -25,6 +25,7 @@ packages:
   - eyed3 # required by abcde
   - lame # required by abcde
   - mpv
+  - fzf
 snap_packages:
   - name: tree
   - name: htop
