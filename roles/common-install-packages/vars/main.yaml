@@ -19,7 +19,7 @@ packages:
   - v4l2loopback-dkms
   - imagemagick
   - encfs
-  - iostat
+  - sysstat
   - picard
   - abcde
   - eyed3 # required by abcde
