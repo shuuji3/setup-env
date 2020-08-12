@@ -6,5 +6,5 @@
   roles:
     - pixelart.chrome
     - pddg.xkeysnail
-    - activate-sands
+#    - activate-sands
     - avnes.ansible-role-slack
