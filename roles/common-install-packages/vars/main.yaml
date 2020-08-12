@@ -31,8 +31,8 @@ snap_packages:
   - name: tree
   - name: htop
   - name: lxd
-  - name: microk8s
-    classic: yes
+#  - name: microk8s # not used yet
+#    classic: yes
   - name: multipass
     classic: yes
     channel: beta
