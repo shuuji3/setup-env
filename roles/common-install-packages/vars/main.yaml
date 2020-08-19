@@ -27,6 +27,7 @@ packages:
   - mpv
   - fzf
   - byobu
+  - mupdf
 snap_packages:
   - name: tree
   - name: htop
