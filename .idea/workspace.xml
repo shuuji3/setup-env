@@ -1,0 +1,479 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </select>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="04abface-c2a5-49a1-a012-98f14bc185b8" name="Default Changelist" comment="Add .idea directory." />
+    <list id="689349b2-884d-4bee-970b-0bc43594a08a" name="not-to-commit" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager">
+    <option name="groupingKeys">
+      <option value="directory" />
+    </option>
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="add-backup-cron" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RESET_MODE" value="HARD" />
+    <option name="UPDATE_TYPE" value="REBASE" />
+  </component>
+  <component name="GitRewordedCommitMessages">
+    <option name="onto" value="9d6dc8a95334e599770df2676c7a18b46e353dbc" />
+  </component>
+  <component name="GitToolBoxStore">
+    <option name="projectConfigVersion" value="2" />
+    <option name="recentBranches">
+      <RecentBranches>
+        <option name="branchesForRepo">
+          <list>
+            <RecentBranchesForRepo>
+              <option name="branches">
+                <list>
+                  <RecentBranch>
+                    <option name="branchName" value="master" />
+                    <option name="lastUsedInstant" value="1592404193" />
+                  </RecentBranch>
+                  <RecentBranch>
+                    <option name="branchName" value="add-backup-cron" />
+                    <option name="lastUsedInstant" value="1592404173" />
+                  </RecentBranch>
+                </list>
+              </option>
+              <option name="repositoryRootUrl" value="file://$PROJECT_DIR$" />
+            </RecentBranchesForRepo>
+          </list>
+        </option>
+      </RecentBranches>
+    </option>
+  </component>
+  <component name="JupyterTrust" id="bbc8d86c-39de-4c6d-a716-2809ffc62a6b" />
+  <component name="MacroExpansionManager">
+    <option name="directoryName" value="61hs3s4n" />
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
+  <component name="ProjectId" id="1dJ00JoU4xHkABGLOvDxku4Wg6b" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <OptionsSetting value="false" id="Update" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="abbreviatePackageNames" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="GO_FMT" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="TF_FMT" value="false" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="dart.analysis.tool.window.visible" value="false" />
+    <property name="eu.ydp.idea.ts.spec.generator.settings.spec.template" value="import {$ClassName$} from '$TestsRelativePath$../src/$classRelativePath$/$ClassName$';&#10;&#10;describe('$ClassName$', () =&gt; {&#10;  let $ObjName$:$ClassName$;&#10;&#10;  beforeEach(() =&gt; {&#10;    $ObjName$ = new $ClassName$();&#10;  });&#10;&#10;  describe('', () =&gt; {&#10;    it('', () =&gt; {&#10;      // given&#10;&#10;      // when&#10;&#10;      // then&#10;    });&#10;  });&#10;});&#10;" />
+    <property name="go.import.settings.migrated" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.general" />
+  </component>
+  <component name="RubyModuleManagerSettings">
+    <option name="blackListedRootsPaths">
+      <list>
+        <option value="$PROJECT_DIR$" />
+      </list>
+    </option>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="04abface-c2a5-49a1-a012-98f14bc185b8" name="Default Changelist" comment="" />
+      <changelist id="689349b2-884d-4bee-970b-0bc43594a08a" name="not-to-commit" comment="" />
+      <created>1592127663612</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1592127663612</updated>
+      <workItem from="1592127665572" duration="85000" />
+      <workItem from="1592131543240" duration="1191000" />
+      <workItem from="1592132806684" duration="219000" />
+      <workItem from="1592149121347" duration="787000" />
+      <workItem from="1592235362203" duration="1390000" />
+      <workItem from="1592274660700" duration="625000" />
+      <workItem from="1592275929027" duration="676000" />
+      <workItem from="1592307986173" duration="778000" />
+      <workItem from="1592384075913" duration="971000" />
+      <workItem from="1592404128584" duration="72000" />
+      <workItem from="1592404221892" duration="756000" />
+      <workItem from="1593254913385" duration="3631000" />
+      <workItem from="1593571508934" duration="663000" />
+      <workItem from="1594465030080" duration="904000" />
+      <workItem from="1594568324870" duration="1772000" />
+      <workItem from="1594900191696" duration="3556000" />
+      <workItem from="1595078854395" duration="1446000" />
+      <workItem from="1595294804800" duration="809000" />
+      <workItem from="1596707594492" duration="30000" />
+      <workItem from="1596707858310" duration="796000" />
+      <workItem from="1596761464421" duration="2634000" />
+      <workItem from="1597212831583" duration="3076000" />
+      <workItem from="1597801788073" duration="716000" />
+    </task>
+    <task id="LOCAL-00001" summary="Fix the install order of linuxbrew.">
+      <created>1592132061805</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1592132061805</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Refactor ansible-install.sh.">
+      <created>1592132072004</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1592132072004</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Add rclone-browser to mount Google Drive.">
+      <created>1592132084492</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1592132084492</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Add files and template.">
+      <created>1592133017516</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1592133017516</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Add gh homebrew package.">
+      <created>1592235399460</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1592235399460</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Replace Jetbrains snap packages with the jetbrains toolbox.">
+      <created>1592277359214</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1592277359214</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Change the way to install docker from the snap to the ansible-galaxy role.">
+      <created>1592403930519</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1592403930519</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Add obs-studio package.">
+      <created>1592403940930</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1592403940930</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Add Slack desktop app installed via official deb package.">
+      <created>1593260856608</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1593260856608</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Add several packages: ccat, kompose, go, ffmpeg, v4l2 (for virtual webcam), youtube-dl.">
+      <created>1593338682667</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1593338682667</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Add imagemagick package.">
+      <created>1593580722239</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1593580722239</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Add poetry brew package.">
+      <created>1593580730953</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1593580730953</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Add iostat end encfs packages.">
+      <created>1594465328711</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1594465328712</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Add awscli brew package.">
+      <created>1594580772674</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1594580772674</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Add MusicBrainz Picard package.">
+      <created>1594900355446</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1594900355446</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Add abcde package and its dependencies.">
+      <created>1594910870028</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1594910870028</updated>
+    </task>
+    <task id="LOCAL-00017" summary="Add vlc and mpv player.">
+      <created>1595078946735</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1595078946735</updated>
+    </task>
+    <task id="LOCAL-00018" summary="Add discord and audacity snap packages.">
+      <created>1595088386413</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1595088386413</updated>
+    </task>
+    <task id="LOCAL-00019" summary="Add cfsll package.">
+      <created>1595295012423</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1595295012423</updated>
+    </task>
+    <task id="LOCAL-00020" summary="Add skaffold brew package.">
+      <created>1596707616899</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1596707616899</updated>
+    </task>
+    <task id="LOCAL-00021" summary="Add pack brew package.">
+      <created>1596708604230</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1596708604230</updated>
+    </task>
+    <task id="LOCAL-00022" summary="Add pyproject.toml and poetry.lock to run ansible.">
+      <created>1596708646275</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1596708646275</updated>
+    </task>
+    <task id="LOCAL-00023" summary="Add krew homebrew package.">
+      <created>1596761483680</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1596761483680</updated>
+    </task>
+    <task id="LOCAL-00024" summary="Add fzf apt package.">
+      <created>1596763007013</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1596763007013</updated>
+    </task>
+    <task id="LOCAL-00025" summary="Add byobu apt package.">
+      <created>1596763859455</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1596763859455</updated>
+    </task>
+    <task id="LOCAL-00026" summary="Disable sands because of a bad behavior.">
+      <created>1597214008249</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1597214008249</updated>
+    </task>
+    <task id="LOCAL-00027" summary="Disable microk8s currently not used.">
+      <created>1597214027206</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1597214027206</updated>
+    </task>
+    <task id="LOCAL-00028" summary="Fix the wrong package name.">
+      <created>1597214041899</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1597214041899</updated>
+    </task>
+    <task id="LOCAL-00029" summary="Add mupdf apt package.">
+      <created>1597801822025</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1597801822025</updated>
+    </task>
+    <task id="LOCAL-00030" summary="Add a galaxy playbook to install the sdkman.">
+      <created>1597801844501</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1597801844501</updated>
+    </task>
+    <task id="LOCAL-00031" summary="Add .idea directory.">
+      <created>1597801889164</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1597801889164</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="main.yaml" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Change the way to install docker from the snap to the ansible-galaxy role." />
+    <MESSAGE value="Add obs-studio package." />
+    <MESSAGE value="Add Slack desktop app installed via official deb package." />
+    <MESSAGE value="Add several packages: ccat, kompose, go, ffmpeg, v4l2 (for virtual webcam), youtube-dl." />
+    <MESSAGE value="Add imagemagick package." />
+    <MESSAGE value="Add poetry brew package." />
+    <MESSAGE value="Add iostat end encfs packages." />
+    <MESSAGE value="Add awscli brew package." />
+    <MESSAGE value="Add MusicBrainz Picard package." />
+    <MESSAGE value="Add abcde package and its dependencies." />
+    <MESSAGE value="Add vlc and mpv player." />
+    <MESSAGE value="Add discord and audacity snap packages." />
+    <MESSAGE value="Add cfsll package." />
+    <MESSAGE value="Add skaffold brew package." />
+    <MESSAGE value="Add pack brew package." />
+    <MESSAGE value="Add pyproject.toml and poetry.lock to run ansible." />
+    <MESSAGE value="Add krew homebrew package." />
+    <MESSAGE value="Add fzf apt package." />
+    <MESSAGE value="Add byobu apt package." />
+    <MESSAGE value="Disable sands because of a bad behavior." />
+    <MESSAGE value="Disable microk8s currently not used." />
+    <MESSAGE value="Fix the wrong package name." />
+    <MESSAGE value="Add mupdf apt package." />
+    <MESSAGE value="Add a galaxy playbook to install the sdkman." />
+    <MESSAGE value="Add .idea directory." />
+    <option name="LAST_COMMIT_MESSAGE" value="Add .idea directory." />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="141" y="72" width="708" height="960" key="DiffContextDialog" timestamp="1593374688663">
+      <screen x="72" y="22" width="1848" height="1058" />
+    </state>
+    <state x="244" y="140" width="1414" height="1920" key="DiffContextDialog/144.40.3696.2120/0.2160.3840.2160@144.40.3696.2120" timestamp="1592277372481" />
+    <state x="1992" y="51" width="735" height="979" key="DiffContextDialog/1920.0.1920.1080/0.22.1920.1058@1920.0.1920.1080" timestamp="1592404111747" />
+    <state x="141" y="72" width="708" height="960" key="DiffContextDialog/1920.0.1920.1080/72.22.1848.1058@72.22.1848.1058" timestamp="1593374688663" />
+    <state x="2074" y="312" width="750" height="485" key="Git.Interactive.Rebase.Dialog" timestamp="1592404015703">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2074" y="312" width="750" height="485" key="Git.Interactive.Rebase.Dialog/1920.0.1920.1080/0.22.1920.1058@1920.0.1920.1080" timestamp="1592404015703" />
+    <state x="2989" y="656" width="381" height="155" key="VCS.ChangelistChooser" timestamp="1592132122732">
+      <screen x="1920" y="0" width="2560" height="1440" />
+    </state>
+    <state x="2989" y="656" width="381" height="155" key="VCS.ChangelistChooser/1920.0.2560.1440/0.360.1920.1080@1920.0.2560.1440" timestamp="1592132122732" />
+    <state x="2692" y="452" width="318" height="250" key="VCS.EditChangelistDialog" timestamp="1596707884464">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2692" y="452" width="318" height="250" key="VCS.EditChangelistDialog/1920.0.1920.1080/0.22.1920.1058@1920.0.1920.1080" timestamp="1596707884464" />
+    <state x="2640" y="395" width="600" height="415" key="Vcs.Push.Dialog.v2" timestamp="1597801895928">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="1530" y="816" width="1200" height="828" key="Vcs.Push.Dialog.v2/144.40.3696.2120/0.2160.3840.2160@144.40.3696.2120" timestamp="1592277360881" />
+    <state x="2640" y="395" width="600" height="415" key="Vcs.Push.Dialog.v2/1920.0.1920.1080/0.22.1920.1058@1920.0.1920.1080" timestamp="1597801895928" />
+    <state x="765" y="409" width="600" height="415" key="Vcs.Push.Dialog.v2/1920.0.1920.1080/72.22.1848.1058@72.22.1848.1058" timestamp="1593338685150" />
+    <state x="2880" y="527" width="600" height="413" key="Vcs.Push.Dialog.v2/1920.0.2560.1440/0.360.1920.1080@1920.0.2560.1440" timestamp="1592133017783" />
+    <state x="765" y="453" key="Vcs.Push.Dialog.v2/72.22.1848.1178@72.22.1848.1178" timestamp="1593580736233" />
+    <state x="458" y="874" width="1006" height="495" key="cloudConfig.PluginsDialog" timestamp="1592274635298">
+      <screen x="144" y="40" width="3696" height="2120" />
+    </state>
+    <state x="458" y="874" width="1006" height="495" key="cloudConfig.PluginsDialog/144.40.3696.2120/0.2160.3840.2160@144.40.3696.2120" timestamp="1592274635298" />
+    <state x="2240" y="314" width="387" height="487" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1594568331868">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2240" y="314" width="387" height="487" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/1920.0.1920.1080/0.22.1920.1058@1920.0.1920.1080" timestamp="1594568331868" />
+    <state x="380" y="330" width="387" height="471" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/1920.0.1920.1080/72.22.1848.1058@72.22.1848.1058" timestamp="1593338590587" />
+    <state x="300" y="539" width="427" height="150" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1593273814070">
+      <screen x="72" y="22" width="1848" height="1058" />
+    </state>
+    <state x="300" y="539" width="427" height="150" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/1920.0.1920.1080/72.22.1848.1058@72.22.1848.1058" timestamp="1593273814070" />
+    <state x="2591" y="330" width="531" height="486" key="find.popup" timestamp="1597213064231">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2591" y="330" width="531" height="486" key="find.popup/1920.0.1920.1080/0.22.1920.1058@1920.0.1920.1080" timestamp="1597213064231" />
+    <state x="2052" y="246" width="567" height="749" key="search.everywhere.popup" timestamp="1593257954613">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="398" y="522" width="1091" height="1470" key="search.everywhere.popup/144.40.3696.2120/3840.0.3840.2160@144.40.3696.2120" timestamp="1592316622932" />
+    <state x="2052" y="246" width="567" height="749" key="search.everywhere.popup/1920.0.1920.1080/0.22.1920.1058@1920.0.1920.1080" timestamp="1593257954613" />
+  </component>
+</project>
