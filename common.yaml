@@ -2,7 +2,8 @@
 - hosts: all
   connection: local
   roles:
-    - name: markosamuli.linuxbrew
+    - markosamuli.linuxbrew
+    - Comcast.sdkman
 
 - hosts: all
   connection: local
