@@ -28,6 +28,7 @@ packages:
   - fzf
   - byobu
   - qemu-kvm
+  - namp
 snap_packages:
   - name: tree
   - name: htop
