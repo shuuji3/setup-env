@@ -29,6 +29,7 @@ packages:
   - byobu
   - qemu-kvm
   - namp
+  - virt-manager
 snap_packages:
   - name: tree
   - name: htop

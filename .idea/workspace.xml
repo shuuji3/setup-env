@@ -24,7 +24,10 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="04abface-c2a5-49a1-a012-98f14bc185b8" name="Default Changelist" comment="Add .idea directory." />
+    <list default="true" id="04abface-c2a5-49a1-a012-98f14bc185b8" name="Default Changelist" comment="Add .idea directory.">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/roles/common-install-packages/vars/main.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/roles/common-install-packages/vars/main.yaml" afterDir="false" />
+    </list>
     <list id="689349b2-884d-4bee-970b-0bc43594a08a" name="not-to-commit" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -165,6 +168,8 @@
       <workItem from="1598324286161" duration="600000" />
       <workItem from="1598377910057" duration="30000" />
       <workItem from="1598563597111" duration="211000" />
+      <workItem from="1599328251435" duration="54000" />
+      <workItem from="1599826703639" duration="649000" />
     </task>
     <task id="LOCAL-00001" summary="Fix the install order of linuxbrew.">
       <created>1592132061805</created>
@@ -411,7 +416,14 @@
       <option name="project" value="LOCAL" />
       <updated>1598563788765</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="Add nmap apt package.">
+      <created>1599328296170</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1599328296170</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -433,7 +445,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Add several packages: ccat, kompose, go, ffmpeg, v4l2 (for virtual webcam), youtube-dl." />
     <MESSAGE value="Add imagemagick package." />
     <MESSAGE value="Add poetry brew package." />
     <MESSAGE value="Add iostat end encfs packages." />
@@ -458,7 +469,8 @@
     <MESSAGE value="Revert &quot;Add mupdf apt package.&quot;&#10;&#10;This reverts commit 8312effb" />
     <MESSAGE value="Add qemu-kvm apt package." />
     <MESSAGE value="Update .idea directory." />
-    <option name="LAST_COMMIT_MESSAGE" value="Update .idea directory." />
+    <MESSAGE value="Add nmap apt package." />
+    <option name="LAST_COMMIT_MESSAGE" value="Add nmap apt package." />
   </component>
   <component name="WindowStateProjectService">
     <state x="2340" y="93" width="904" height="874" key="CommitChangelistDialog2" timestamp="1597805255743">
@@ -484,9 +496,10 @@
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state x="2692" y="452" width="318" height="250" key="VCS.EditChangelistDialog/1920.0.1920.1080/0.22.1920.1058@1920.0.1920.1080" timestamp="1596707884464" />
-    <state x="2640" y="395" width="600" height="415" key="Vcs.Push.Dialog.v2" timestamp="1598563790805">
-      <screen x="1920" y="0" width="1920" height="1080" />
+    <state x="1800" y="923" width="600" height="415" key="Vcs.Push.Dialog.v2" timestamp="1599328297927">
+      <screen x="1080" y="528" width="1920" height="1080" />
     </state>
+    <state x="1800" y="923" key="Vcs.Push.Dialog.v2/1080.528.1920.1080/0.555.1080.1365@1080.528.1920.1080" timestamp="1599328297927" />
     <state x="1530" y="816" width="1200" height="828" key="Vcs.Push.Dialog.v2/144.40.3696.2120/0.2160.3840.2160@144.40.3696.2120" timestamp="1592277360881" />
     <state x="2640" y="395" width="600" height="415" key="Vcs.Push.Dialog.v2/1920.0.1920.1080/0.22.1920.1058@1920.0.1920.1080" timestamp="1597805260725" />
     <state x="2640" y="395" key="Vcs.Push.Dialog.v2/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1598563790805" />
