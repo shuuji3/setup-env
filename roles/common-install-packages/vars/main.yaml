@@ -56,6 +56,7 @@ snap_packages:
   - name: vlc
   - name: discord
   - name: audacity
+  - name: inkscape
 homebrew_packages:
   - kubectl
   - kind
