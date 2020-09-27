@@ -72,6 +72,7 @@ homebrew_packages:
   - skaffold
   - buildpacks/tap/pack
   - krew
+  - tldr
 flatpak_packages: []
 npm_global_packages:
   - yarn
