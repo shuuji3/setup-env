@@ -3,6 +3,7 @@
   command: which fish
   register: which_fish
   ignore_errors: yes
+  changed_when: no
 - name: chsh fish
   user:
     name: "{{ ansible_user }}"

@@ -2,6 +2,7 @@
 - name: install packages
   package:
     name: "{{ item }}"
+    # skip_list
     state: latest
   with_items: "{{ packages }}"
 
