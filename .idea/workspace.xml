@@ -24,17 +24,9 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="04abface-c2a5-49a1-a012-98f14bc185b8" name="Default Changelist" comment="Add tldr brew package.">
-      <change afterPath="$PROJECT_DIR$/.ansible-lint" afterDir="false" />
+    <list default="true" id="04abface-c2a5-49a1-a012-98f14bc185b8" name="Default Changelist" comment="Fix ansible-lint errors.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/roles/activate-sands/files/activate-sands.bash" beforeDir="false" afterPath="$PROJECT_DIR$/roles/activate_sands/files/activate-sands.bash" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/roles/activate-sands/tasks/main.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/roles/activate_sands/tasks/main.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/roles/add-to-groups/tasks/main.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/roles/add_to_groups/tasks/main.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/roles/chsh-fish/tasks/main.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/roles/chsh_fish/tasks/main.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/roles/common-install-packages/tasks/main.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/roles/common_install_packages/tasks/main.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/roles/common-install-packages/vars/main.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/roles/common_install_packages/vars/main.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/roles/install-ssh-authorized_keys/tasks/main.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/roles/install_ssh_authorized_keys/tasks/main.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/roles/setup-google-drive/tasks/main.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/roles/setup_google_drive/tasks/main.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/roles/common_install_packages/vars/main.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/roles/common_install_packages/vars/main.yaml" afterDir="false" />
     </list>
     <list id="689349b2-884d-4bee-970b-0bc43594a08a" name="not-to-commit" comment="" />
     <option name="SHOW_DIALOG" value="false" />
@@ -185,7 +177,8 @@
       <workItem from="1599328251435" duration="54000" />
       <workItem from="1599826703639" duration="1281000" />
       <workItem from="1600692498603" duration="35000" />
-      <workItem from="1601202418538" duration="1755000" />
+      <workItem from="1601202418538" duration="2428000" />
+      <workItem from="1601480779630" duration="634000" />
     </task>
     <task id="LOCAL-00001" summary="Fix the install order of linuxbrew.">
       <created>1592132061805</created>
@@ -460,7 +453,21 @@
       <option name="project" value="LOCAL" />
       <updated>1601202431974</updated>
     </task>
-    <option name="localTasksCounter" value="40" />
+    <task id="LOCAL-00040" summary="Fix ansible-lint erorrs.">
+      <created>1601209427354</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1601209427354</updated>
+    </task>
+    <task id="LOCAL-00041" summary="Fix ansible-lint errors.">
+      <created>1601209442100</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1601209442100</updated>
+    </task>
+    <option name="localTasksCounter" value="42" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -482,8 +489,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Add awscli brew package." />
-    <MESSAGE value="Add MusicBrainz Picard package." />
     <MESSAGE value="Add abcde package and its dependencies." />
     <MESSAGE value="Add vlc and mpv player." />
     <MESSAGE value="Add discord and audacity snap packages." />
@@ -507,7 +512,9 @@
     <MESSAGE value="Add virt-manager apt package." />
     <MESSAGE value="Add inkscape snap package." />
     <MESSAGE value="Add tldr brew package." />
-    <option name="LAST_COMMIT_MESSAGE" value="Add tldr brew package." />
+    <MESSAGE value="Fix ansible-lint erorrs." />
+    <MESSAGE value="Fix ansible-lint errors." />
+    <option name="LAST_COMMIT_MESSAGE" value="Fix ansible-lint errors." />
   </component>
   <component name="WindowStateProjectService">
     <state x="2026" y="1045" width="604" height="385" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1601209000525">
@@ -528,11 +535,11 @@
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state x="2692" y="452" width="318" height="250" key="VCS.EditChangelistDialog/1920.0.1920.1080/0.22.1920.1058@1920.0.1920.1080" timestamp="1596707884464" />
-    <state x="1800" y="1159" width="600" height="415" key="Vcs.Push.Dialog.v2" timestamp="1601202434250">
+    <state x="1800" y="1159" width="600" height="415" key="Vcs.Push.Dialog.v2" timestamp="1601209454888">
       <screen x="1080" y="720" width="1920" height="1200" />
     </state>
     <state x="1800" y="923" width="600" height="415" key="Vcs.Push.Dialog.v2/1080.528.1920.1080/0.555.1080.1365@1080.528.1920.1080" timestamp="1599828654818" />
-    <state x="1800" y="1159" width="600" height="415" key="Vcs.Push.Dialog.v2/1080.720.1920.1200/0.747.1080.1173@1080.720.1920.1200" timestamp="1601202434250" />
+    <state x="1800" y="1159" width="600" height="415" key="Vcs.Push.Dialog.v2/1080.720.1920.1200/0.747.1080.1173@1080.720.1920.1200" timestamp="1601209454888" />
     <state x="2640" y="395" width="600" height="415" key="Vcs.Push.Dialog.v2/1920.0.1920.1080/0.22.1920.1058@1920.0.1920.1080" timestamp="1597805260725" />
     <state x="2640" y="395" key="Vcs.Push.Dialog.v2/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1598563790805" />
     <state x="765" y="409" width="600" height="415" key="Vcs.Push.Dialog.v2/1920.0.1920.1080/72.22.1848.1058@72.22.1848.1058" timestamp="1593338685150" />
