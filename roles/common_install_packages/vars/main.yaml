@@ -27,7 +27,7 @@ packages:
   - fzf
   - byobu
   - qemu-kvm
-  - namp
+  - nmap
   - virt-manager
   - graphviz
 snap_packages:
