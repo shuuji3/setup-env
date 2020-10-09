@@ -1,0 +1,17 @@
+---
+- name: Add an Apt signing key for the tailscale repository
+  apt_key:
+    url: https://pkgs.tailscale.com/unstable/ubuntu/focal.gpg
+    state: present
+
+- name: Register apt repository
+  apt_repository:
+    repo: 'deb https://pkgs.tailscale.com/unstable/ubuntu focal main'
+    state: present
+    filename: tailscale
+    update_cache: yes
+
+- name: Install tailscale
+  package:
+    name: tailscale
+    state: latest

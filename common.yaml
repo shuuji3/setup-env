@@ -17,3 +17,4 @@
     - setup-google-drive
     - baztian.jetbrains_toolbox
     - geerlingguy.docker
+    - install_tailscale

@@ -25,7 +25,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="04abface-c2a5-49a1-a012-98f14bc185b8" name="Default Changelist" comment="Fix ansible-lint errors.">
+      <change afterPath="$PROJECT_DIR$/roles/install_tailscale/tasks/main.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tmp.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/common.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/roles/common_install_packages/vars/main.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/roles/common_install_packages/vars/main.yaml" afterDir="false" />
     </list>
     <list id="689349b2-884d-4bee-970b-0bc43594a08a" name="not-to-commit" comment="" />
@@ -123,6 +126,10 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/roles/install_tailscale/tasks" />
+      <recent name="$PROJECT_DIR$/roles/install_tailscale" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
     </key>
@@ -178,7 +185,9 @@
       <workItem from="1599826703639" duration="1281000" />
       <workItem from="1600692498603" duration="35000" />
       <workItem from="1601202418538" duration="2428000" />
-      <workItem from="1601480779630" duration="634000" />
+      <workItem from="1601480779630" duration="703000" />
+      <workItem from="1601496000485" duration="611000" />
+      <workItem from="1602217338285" duration="4150000" />
     </task>
     <task id="LOCAL-00001" summary="Fix the install order of linuxbrew.">
       <created>1592132061805</created>
@@ -467,7 +476,14 @@
       <option name="project" value="LOCAL" />
       <updated>1601209442100</updated>
     </task>
-    <option name="localTasksCounter" value="42" />
+    <task id="LOCAL-00042" summary="Add graphviz apt package">
+      <created>1601483361485</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1601483361485</updated>
+    </task>
+    <option name="localTasksCounter" value="43" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -489,7 +505,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Add abcde package and its dependencies." />
     <MESSAGE value="Add vlc and mpv player." />
     <MESSAGE value="Add discord and audacity snap packages." />
     <MESSAGE value="Add cfsll package." />
@@ -514,7 +529,8 @@
     <MESSAGE value="Add tldr brew package." />
     <MESSAGE value="Fix ansible-lint erorrs." />
     <MESSAGE value="Fix ansible-lint errors." />
-    <option name="LAST_COMMIT_MESSAGE" value="Fix ansible-lint errors." />
+    <MESSAGE value="Add graphviz apt package" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add graphviz apt package" />
   </component>
   <component name="WindowStateProjectService">
     <state x="2026" y="1045" width="604" height="385" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1601209000525">
@@ -535,11 +551,11 @@
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state x="2692" y="452" width="318" height="250" key="VCS.EditChangelistDialog/1920.0.1920.1080/0.22.1920.1058@1920.0.1920.1080" timestamp="1596707884464" />
-    <state x="1800" y="1159" width="600" height="415" key="Vcs.Push.Dialog.v2" timestamp="1601209454888">
+    <state x="1800" y="1159" width="600" height="415" key="Vcs.Push.Dialog.v2" timestamp="1601483391709">
       <screen x="1080" y="720" width="1920" height="1200" />
     </state>
     <state x="1800" y="923" width="600" height="415" key="Vcs.Push.Dialog.v2/1080.528.1920.1080/0.555.1080.1365@1080.528.1920.1080" timestamp="1599828654818" />
-    <state x="1800" y="1159" width="600" height="415" key="Vcs.Push.Dialog.v2/1080.720.1920.1200/0.747.1080.1173@1080.720.1920.1200" timestamp="1601209454888" />
+    <state x="1800" y="1159" width="600" height="415" key="Vcs.Push.Dialog.v2/1080.720.1920.1200/0.747.1080.1173@1080.720.1920.1200" timestamp="1601483391709" />
     <state x="2640" y="395" width="600" height="415" key="Vcs.Push.Dialog.v2/1920.0.1920.1080/0.22.1920.1058@1920.0.1920.1080" timestamp="1597805260725" />
     <state x="2640" y="395" key="Vcs.Push.Dialog.v2/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1598563790805" />
     <state x="765" y="409" width="600" height="415" key="Vcs.Push.Dialog.v2/1920.0.1920.1080/72.22.1848.1058@72.22.1848.1058" timestamp="1593338685150" />
@@ -557,9 +573,10 @@
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state x="2591" y="330" width="531" height="486" key="find.popup/1920.0.1920.1080/0.22.1920.1058@1920.0.1920.1080" timestamp="1597213064231" />
-    <state x="2052" y="246" width="567" height="749" key="search.everywhere.popup" timestamp="1593257954613">
-      <screen x="1920" y="0" width="1920" height="1080" />
+    <state x="1212" y="993" width="567" height="833" key="search.everywhere.popup" timestamp="1601483399236">
+      <screen x="1080" y="720" width="1920" height="1200" />
     </state>
+    <state x="1212" y="993" width="567" height="833" key="search.everywhere.popup/1080.720.1920.1200/0.747.1080.1173@1080.720.1920.1200" timestamp="1601483399236" />
     <state x="2052" y="246" width="567" height="749" key="search.everywhere.popup/1920.0.1920.1080/0.22.1920.1058@1920.0.1920.1080" timestamp="1593257954613" />
   </component>
 </project>
