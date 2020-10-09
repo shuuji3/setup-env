@@ -8,7 +8,6 @@ packages:
   - cargo
   - ibus-mozc
   - mozc-utils-gui
-  - gimp
   - rbenv
   - virtualbox-qt
   - jq
@@ -58,6 +57,7 @@ snap_packages:
   - name: discord
   - name: audacity
   - name: inkscape
+  - name: autossh
 homebrew_packages:
   - kubectl
   - kind
