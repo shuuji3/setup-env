@@ -30,6 +30,7 @@ packages:
   - nmap
   - virt-manager
   - graphviz
+  - wine-development
 snap_packages:
   - name: tree
   - name: htop
