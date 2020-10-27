@@ -31,6 +31,7 @@ packages:
   - virt-manager
   - graphviz
   - wine-development
+  - winetricks
 snap_packages:
   - name: tree
   - name: htop
