@@ -24,7 +24,7 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="04abface-c2a5-49a1-a012-98f14bc185b8" name="Default Changelist" comment="Fix wrong package and role names.">
+    <list default="true" id="04abface-c2a5-49a1-a012-98f14bc185b8" name="Default Changelist" comment="Add winetricks apt package.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <list id="689349b2-884d-4bee-970b-0bc43594a08a" name="not-to-commit" comment="">
@@ -186,6 +186,8 @@
       <workItem from="1601480779630" duration="703000" />
       <workItem from="1601496000485" duration="611000" />
       <workItem from="1602217338285" duration="5603000" />
+      <workItem from="1603831590543" duration="842000" />
+      <workItem from="1606763623933" duration="1251000" />
     </task>
     <task id="LOCAL-00001" summary="Fix the install order of linuxbrew.">
       <created>1592132061805</created>
@@ -502,7 +504,21 @@
       <option name="project" value="LOCAL" />
       <updated>1602227323191</updated>
     </task>
-    <option name="localTasksCounter" value="46" />
+    <task id="LOCAL-00046" summary="Add wine-development apt package.">
+      <created>1603831739230</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1603831739230</updated>
+    </task>
+    <task id="LOCAL-00047" summary="Add winetricks apt package.">
+      <created>1603831824174</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1603831824174</updated>
+    </task>
+    <option name="localTasksCounter" value="48" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -524,8 +540,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Add skaffold brew package." />
-    <MESSAGE value="Add pack brew package." />
     <MESSAGE value="Add pyproject.toml and poetry.lock to run ansible." />
     <MESSAGE value="Add krew homebrew package." />
     <MESSAGE value="Add fzf apt package." />
@@ -549,7 +563,9 @@
     <MESSAGE value="Add a new role to install tailscale." />
     <MESSAGE value="Add autossh snap package." />
     <MESSAGE value="Fix wrong package and role names." />
-    <option name="LAST_COMMIT_MESSAGE" value="Fix wrong package and role names." />
+    <MESSAGE value="Add wine-development apt package." />
+    <MESSAGE value="Add winetricks apt package." />
+    <option name="LAST_COMMIT_MESSAGE" value="Add winetricks apt package." />
   </component>
   <component name="WindowStateProjectService">
     <state x="2026" y="1045" width="604" height="385" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1601209000525">
@@ -560,27 +576,26 @@
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state x="2340" y="93" width="904" height="874" key="CommitChangelistDialog2/1920.0.1920.1080/0.22.1920.1058@1920.0.1920.1080" timestamp="1597805255743" />
-    <state x="1152" y="777" width="736" height="1089" key="DiffContextDialog" timestamp="1600692532719">
-      <screen x="1080" y="720" width="1920" height="1200" />
+    <state x="1224" y="103" width="1472" height="1961" key="DiffContextDialog" timestamp="1603936718749">
+      <screen x="1080" y="0" width="3840" height="2160" />
     </state>
+    <state x="1224" y="103" width="1472" height="1961" key="DiffContextDialog/1080.0.3840.2160/0.240.1080.1920@1080.0.3840.2160" timestamp="1603936718749" />
     <state x="1152" y="777" width="736" height="1089" key="DiffContextDialog/1080.720.1920.1200/0.747.1080.1173@1080.720.1920.1200" timestamp="1600692532719" />
     <state x="1992" y="51" width="736" height="980" key="DiffContextDialog/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1598563807598" />
-    <state x="1852" y="1222" width="318" height="250" key="VCS.EditChangelistDialog" timestamp="1602227326002">
-      <screen x="1080" y="720" width="1920" height="1200" />
+    <state x="2624" y="904" width="318" height="250" key="VCS.EditChangelistDialog" timestamp="1603831809912">
+      <screen x="1080" y="0" width="3840" height="2160" />
     </state>
+    <state x="2624" y="904" key="VCS.EditChangelistDialog/1080.0.3840.2160/0.240.1080.1920@1080.0.3840.2160" timestamp="1603831809912" />
     <state x="1852" y="1222" key="VCS.EditChangelistDialog/1080.720.1920.1200/0.747.1080.1173@1080.720.1920.1200" timestamp="1602227326002" />
     <state x="2692" y="452" width="318" height="250" key="VCS.EditChangelistDialog/1920.0.1920.1080/0.22.1920.1058@1920.0.1920.1080" timestamp="1596707884464" />
-    <state x="1800" y="1159" width="600" height="415" key="Vcs.Push.Dialog.v2" timestamp="1602227366924">
-      <screen x="1080" y="720" width="1920" height="1200" />
+    <state x="2520" y="790" width="1000" height="662" key="Vcs.Push.Dialog.v2" timestamp="1603831825626">
+      <screen x="1080" y="0" width="3840" height="2160" />
     </state>
+    <state x="2520" y="790" width="1000" height="662" key="Vcs.Push.Dialog.v2/1080.0.3840.2160/0.240.1080.1920@1080.0.3840.2160" timestamp="1603831825626" />
     <state x="1800" y="923" width="600" height="415" key="Vcs.Push.Dialog.v2/1080.528.1920.1080/0.555.1080.1365@1080.528.1920.1080" timestamp="1599828654818" />
     <state x="1800" y="1159" width="600" height="415" key="Vcs.Push.Dialog.v2/1080.720.1920.1200/0.747.1080.1173@1080.720.1920.1200" timestamp="1602227366924" />
     <state x="2640" y="395" width="600" height="415" key="Vcs.Push.Dialog.v2/1920.0.1920.1080/0.22.1920.1058@1920.0.1920.1080" timestamp="1597805260725" />
     <state x="2640" y="395" key="Vcs.Push.Dialog.v2/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1598563790805" />
-    <state x="2240" y="314" width="387" height="487" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1594568331868">
-      <screen x="1920" y="0" width="1920" height="1080" />
-    </state>
-    <state x="2240" y="314" width="387" height="487" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/1920.0.1920.1080/0.22.1920.1058@1920.0.1920.1080" timestamp="1594568331868" />
     <state x="2591" y="330" width="531" height="486" key="find.popup" timestamp="1597213064231">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>

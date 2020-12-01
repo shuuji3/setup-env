@@ -36,8 +36,6 @@ snap_packages:
   - name: tree
   - name: htop
   - name: lxd
-#  - name: microk8s # not used yet
-#    classic: yes
   - name: multipass
     classic: yes
     channel: beta
@@ -76,6 +74,7 @@ homebrew_packages:
   - buildpacks/tap/pack
   - krew
   - tldr
+  - k3sup
 flatpak_packages: []
 npm_global_packages:
   - yarn
