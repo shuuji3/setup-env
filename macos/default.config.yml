@@ -5,22 +5,20 @@ configure_dotfiles: true
 configure_terminal: true
 configure_osx: true
 
-configure_sudoers: false
-sudoers_custom_config: ''
-# Example:
-# sudoers_custom_config: |
-#   # Allow users in admin group to use sudo with no password.
-#   %admin ALL=(ALL) NOPASSWD: ALL
+configure_sudoers: true
+sudoers_custom_config: |
+  # Allow users in admin group to use sudo with no password.
+  %admin ALL=(ALL) NOPASSWD: ALL
 
-dotfiles_repo: https://github.com/geerlingguy/dotfiles.git
-dotfiles_repo_accept_hostkey: true
-dotfiles_repo_local_destination: ~/Development/GitHub/dotfiles
-dotfiles_files:
-  - .zshrc
-  - .gitignore
-  - .inputrc
-  - .osx
-  - .vimrc
+#dotfiles_repo: https://github.com/shuuji3/dotfiles.git
+#dotfiles_repo_accept_hostkey: true
+#dotfiles_repo_local_destination: ~/src/dotfiles
+#dotfiles_files:
+#  - .zshrc
+#  - .gitignore
+#  - .inputrc
+#  - .osx
+#  - .vimrc
 
 homebrew_installed_packages:
   # - ansible # Installed via Pip.
@@ -28,46 +26,78 @@ homebrew_installed_packages:
   - bash-completion
   - doxygen
   - gettext
-  - gifsicle
+  #  - gifsicle
   - git
   - github/gh/gh
   - go
   - gpg
   - httpie
-  - iperf
+  #  - iperf # could not be installed in M1 mac
   - libevent
   - sqlite
   - mcrypt
   - nmap
   - node
-  - nvm
-  - php
+  #  - nvm
+  #  - php
   - ssh-copy-id
   - cowsay
   - readline
   - openssl
   - pv
   - wget
-  - wrk
+  #  - wrk # could not be installed in M1 mac
+  #  - encfs # could not be installed in M1 mac
+  - fish
+  - emacs
+  - youtube-dl
+  - git-filter-repo
+  - infracost
+  - google-cloud-sdk
+  - htop
+  - tree
+  - jq
+  - kind
+  - minikube
+  - wasmer
+  - rustup
+  - k3sup
+  - byobu
+  - ccat
+  - terraform
+  - helm
+  - skaffold
+  - krew
+  - tldr
+  - yarn
 
 homebrew_taps:
   - homebrew/core
   - homebrew/cask
+  - homebrew/cask-versions
 
 homebrew_cask_appdir: /Applications
 homebrew_cask_apps:
   - chromedriver
-  - docker
-  - dropbox
+  #  - docker
+  #  - dropbox
   - firefox
   - google-chrome
+  - google-chrome-canary
   - handbrake
-  - licecap
-  - sequel-pro
+  #  - licecap
+  #  - sequel-pro
   - slack
-  - sublime-text
-  - transmit
+  #  - transmit
   - vagrant
+  - osxfuse
+  - discord
+  - microsoft-teams
+  - zoom
+  - visual-studio-code
+  - barrier
+  - amethyst
+  - obs
 
 # See `geerlingguy.mas` role documentation for usage instructions.
 mas_installed_apps: []
