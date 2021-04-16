@@ -70,6 +70,8 @@ homebrew_installed_packages:
   - krew
   - tldr
   - yarn
+  - iproute2mac
+  - buildpacks/tap/pack
 
 homebrew_taps:
   - homebrew/core
@@ -79,7 +81,7 @@ homebrew_taps:
 homebrew_cask_appdir: /Applications
 homebrew_cask_apps:
   - chromedriver
-  #  - docker
+  - docker
   #  - dropbox
   - firefox
   - google-chrome
