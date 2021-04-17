@@ -72,6 +72,8 @@ homebrew_installed_packages:
   - yarn
   - iproute2mac
   - buildpacks/tap/pack
+  - starship
+  - xxh
 
 homebrew_taps:
   - homebrew/core
