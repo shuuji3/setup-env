@@ -78,6 +78,7 @@ homebrew_installed_packages:
   - svn
   - font-roboto
   - font-roboto-mono
+  - ffmpeg
 
 homebrew_taps:
   - homebrew/core
@@ -108,6 +109,7 @@ homebrew_cask_apps:
   - amethyst
   - obs
   - appcleaner
+  - typora
 
 # See `geerlingguy.mas` role documentation for usage instructions.
 mas_installed_apps: []
