@@ -111,6 +111,8 @@ homebrew_cask_apps:
   - appcleaner
   - typora
   - pomello
+  - flutter
+  - grandperspective
 
 # See `geerlingguy.mas` role documentation for usage instructions.
 mas_installed_apps: []
