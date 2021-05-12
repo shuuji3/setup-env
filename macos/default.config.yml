@@ -80,6 +80,7 @@ homebrew_installed_packages:
   - font-roboto-mono
   - ffmpeg
   - fzf
+  - argocd
 
 homebrew_taps:
   - homebrew/core
@@ -134,7 +135,8 @@ gem_packages: []
 # - name: bundler
 #   state: present # present/absent/latest, default: present
 #   version: "~> 1.15.1" # default: N/A
-npm_packages: []
+npm_packages:
+  - name: zx
 # - name: webpack
 #   state: present # present/absent/latest, default: present
 #   version: "^2.6" # default: N/A
