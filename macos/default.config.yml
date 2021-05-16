@@ -81,6 +81,7 @@ homebrew_installed_packages:
   - ffmpeg
   - fzf
   - argocd
+  - k3d
 
 homebrew_taps:
   - homebrew/core
