@@ -82,6 +82,7 @@ homebrew_installed_packages:
   - fzf
   - argocd
   - k3d
+  - ngrok
 
 homebrew_taps:
   - homebrew/core
@@ -140,6 +141,7 @@ gem_packages: []
 #   version: "~> 1.15.1" # default: N/A
 npm_packages:
   - name: zx
+  - name: node-red
 # - name: webpack
 #   state: present # present/absent/latest, default: present
 #   version: "^2.6" # default: N/A
