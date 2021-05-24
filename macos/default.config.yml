@@ -121,6 +121,7 @@ homebrew_cask_apps:
   - blender
   - burp-suite
   - iina
+  - utm
 
 # See `geerlingguy.mas` role documentation for usage instructions.
 mas_installed_apps: []
