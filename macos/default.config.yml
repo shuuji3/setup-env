@@ -83,6 +83,7 @@ homebrew_installed_packages:
   - argocd
   - k3d
   - ngrok
+  - alexellis/homebrew-alexellis/arkade
 
 homebrew_taps:
   - homebrew/core
