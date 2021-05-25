@@ -123,6 +123,9 @@ homebrew_cask_apps:
   - iina
   - utm
   - rpi-imager
+  - google-web-designer
+  - google-japanese-ime
+  - google-earth-pro
 
 # See `geerlingguy.mas` role documentation for usage instructions.
 mas_installed_apps: []
