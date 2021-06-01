@@ -84,6 +84,7 @@ homebrew_installed_packages:
   - k3d
   - ngrok
   - alexellis/homebrew-alexellis/arkade
+  - atlantis
 
 homebrew_taps:
   - homebrew/core
