@@ -85,6 +85,7 @@ homebrew_installed_packages:
   - ngrok
   - alexellis/homebrew-alexellis/arkade
   - atlantis
+  - act
 
 homebrew_taps:
   - homebrew/core
